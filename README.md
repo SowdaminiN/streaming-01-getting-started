@@ -22,7 +22,6 @@ Remember:
 ## Verify Installations / Update Default Python
 
 In VS Code, open a terminal window (View / Terminal).
-If macOS/Linux, change `python` to `python3` in the commands below.
 
 ```shell
 git --version
@@ -35,12 +34,8 @@ python -m pip install --upgrade pip wheel
 With your repo folder open in VS Code:
 
 1. Click util_about.py.
-1. If VS Code prompts, install the recommended Python extension.
 1. Check the Python Interpreter: On the bottom-left status bar, you might see a version of Python indicated (e.g., Python 3.10.x).
-1. If not, click on the bottom status bar where it should show the Python version or might say "Select Python Interpreter".
-1. From the dropdown, choose your default Python version.
 1. In VS Code, open a terminal window (View / Terminal).
-1. If macOS/Linux, change `python` to `python3` below.
 
 ```shell
 python util_about.py
@@ -92,20 +87,6 @@ Common Issue: If your computer hangs because you forgot the commit message,
 just enter your message in the top line of the file it shows in the editor.
 Then click the checkmark in the upper right to close that file and save your commit message.
 "Sync your changes" to push to GitHub. 
-
-### Option B: Use Git Bash or Terminal Commands (Easy as well):
-
-Open a new `Git Bash` or Terminal window. Run the following commands one at a time.
-They will first add all the files (add "dot"). 
-Then they will commit the changes with a message. 
-Finally, they will push the changes up to GitHub.
-
-```
-git add .
-git commit -m "initial results"
-git push origin main
-```
-
 
 -----
 
